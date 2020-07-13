@@ -42,6 +42,6 @@ RUN apt-get autoremove -y
 RUN ln -s /opt/nmapdashboard/nmapreport/token.py /root/token
 RUN chmod +x /root/token
 
-EXPOSE 8000
+EXPOSE 8333
 
 ENTRYPOINT ["bash", "/startup.sh"]
